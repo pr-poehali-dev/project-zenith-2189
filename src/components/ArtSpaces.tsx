@@ -3,9 +3,9 @@ export function ArtSpaces() {
     <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-12 text-center">
-          <h2 className="font-serif text-4xl lg:text-5xl font-light mb-4">Где живёт искусство</h2>
+          <h2 className="font-serif text-4xl lg:text-5xl font-light mb-4">Разделы архива</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Исследуйте пространства, где процветает творчество и обретают дом шедевры
+            Фотографии университетского музея охватывают все стороны жизни вуза — от науки до студенческого быта
           </p>
         </div>
 
@@ -19,9 +19,9 @@ export function ArtSpaces() {
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Современные галереи</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Портреты учёных</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Минималистичные пространства, созданные для демонстрации современного искусства во всей его красоте
+                Фотографии профессоров, основателей кафедр и выдающихся деятелей университета разных лет
               </p>
             </div>
           </div>
@@ -30,14 +30,14 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/classical-museum-grand-architecture-paintings.jpg"
-                alt="Классический музей"
+                alt="Архитектура университета"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Исторические музеи</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Архитектура и корпуса</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Величественные институции, хранящие столетия художественного наследия и культурных сокровищ
+                Исторические снимки университетских зданий, аудиторий, лабораторий и библиотек
               </p>
             </div>
           </div>
@@ -45,47 +45,15 @@ export function ArtSpaces() {
           <div className="group overflow-hidden rounded-lg">
             <div className="aspect-[4/3] overflow-hidden">
               <img
-                src="/artist-studio-workspace-with-paintings-easel.jpg"
-                alt="Мастерская художника"
+                src="/fine-art-black-white-photography.jpg"
+                alt="Научные экспедиции"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Мастерские художников</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Научные экспедиции</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Камерные творческие пространства, где вдохновение превращается в осязаемые произведения искусства
-              </p>
-            </div>
-          </div>
-
-          <div className="group overflow-hidden rounded-lg">
-            <div className="aspect-[4/3] overflow-hidden">
-              <img
-                src="/outdoor-sculpture-garden-with-modern-art.jpg"
-                alt="Парк скульптур"
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-            </div>
-            <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Парки скульптур</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Выставки под открытым небом, где искусство гармонирует с природой и ландшафтом
-              </p>
-            </div>
-          </div>
-
-          <div className="group overflow-hidden rounded-lg">
-            <div className="aspect-[4/3] overflow-hidden">
-              <img
-                src="/luxury-private-art-collection-room.jpg"
-                alt="Частная коллекция"
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-            </div>
-            <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Частные коллекции</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Персональные пространства, демонстрирующие страсть взыскательных коллекционеров к изящному искусству
+                Документальные снимки полевых исследований и научных поездок кафедр университета
               </p>
             </div>
           </div>
@@ -94,14 +62,46 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/contemporary-exhibition-space-art-show.jpg"
-                alt="Выставочное пространство"
+                alt="Студенческая жизнь"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Выставочные пространства</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Студенческая жизнь</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Динамичные площадки для сменных экспозиций, объединяющие сообщества вокруг искусства
+                Фестивали, спортивные мероприятия, капустники и повседневный быт студентов разных эпох
+              </p>
+            </div>
+          </div>
+
+          <div className="group overflow-hidden rounded-lg">
+            <div className="aspect-[4/3] overflow-hidden">
+              <img
+                src="/luxury-private-art-collection-room.jpg"
+                alt="Торжественные события"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+            <div className="mt-4">
+              <h3 className="font-serif text-2xl font-light mb-2">Торжественные события</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Выпускные церемонии, юбилеи университета, визиты почётных гостей и государственных деятелей
+              </p>
+            </div>
+          </div>
+
+          <div className="group overflow-hidden rounded-lg">
+            <div className="aspect-[4/3] overflow-hidden">
+              <img
+                src="/art-gallery-interior-contemporary.jpg"
+                alt="Лаборатории и исследования"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+            <div className="mt-4">
+              <h3 className="font-serif text-2xl font-light mb-2">Лаборатории и наука</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Снимки научных лабораторий, оборудования и процесса исследований в разные десятилетия
               </p>
             </div>
           </div>

@@ -4,9 +4,9 @@ export function Footer() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mb-8">
           <div>
-            <h3 className="font-serif text-2xl font-light mb-4">Галерист</h3>
+            <h3 className="font-serif text-2xl font-light mb-4">Музей Университета</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Связываем выдающихся художников со взыскательными коллекционерами с 2020 года.
+              Хранитель фотографического наследия университета. Открытый архив для студентов, выпускников и исследователей.
             </p>
           </div>
 
@@ -15,17 +15,17 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#artists" className="hover:text-foreground transition-colors">
-                  Художники
+                  Коллекции
                 </a>
               </li>
               <li>
                 <a href="#works" className="hover:text-foreground transition-colors">
-                  Работы
+                  Фотогалерея
                 </a>
               </li>
               <li>
                 <a href="#about" className="hover:text-foreground transition-colors">
-                  О нас
+                  О музее
                 </a>
               </li>
               <li>
@@ -50,8 +50,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:hello@galerist.art" className="hover:text-foreground transition-colors">
-                  hello@galerist.art
+                <a href="mailto:museum@university.ru" className="hover:text-foreground transition-colors">
+                  museum@university.ru
                 </a>
               </li>
             </ul>
@@ -59,7 +59,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Галерист. Все права защищены.</p>
+          <p>&copy; {new Date().getFullYear()} Музей Университета. Все права защищены.</p>
         </div>
       </div>
     </footer>

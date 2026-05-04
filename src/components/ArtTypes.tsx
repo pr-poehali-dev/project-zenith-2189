@@ -9,67 +9,67 @@ interface ArtType {
 
 const artTypes: ArtType[] = [
   {
-    name: "Живопись",
+    name: "Портретная съёмка",
     description:
-      "Практика нанесения краски, пигмента, цвета или другого материала на твёрдую поверхность. От масла и акрила до акварели и гуаши.",
-    image: "/oil-painting-canvas-classical-style.jpg",
-    examples: "Масло, Акрил, Акварель, Фреска",
+      "Постановочные и неформальные портреты учёных, преподавателей и студентов. Лица, которые вписали свои имена в историю университета.",
+    image: "/fine-art-portrait-photography.jpg",
+    examples: "Постановочный портрет, Репортажный портрет",
   },
   {
-    name: "Скульптура",
+    name: "Документальная съёмка",
     description:
-      "Трёхмерное искусство, создаваемое путём формования или комбинирования материалов. От классического мрамора до современных инсталляций.",
-    image: "/marble-sculpture-classical-statue.jpg",
-    examples: "Камень, Бронза, Дерево, Глина",
-  },
-  {
-    name: "Фотография",
-    description:
-      "Искусство захвата света для создания изображений. От документальной до художественной, от аналоговой до цифровой.",
+      "Репортажные кадры событий, лекций, экзаменов и повседневной жизни вуза. Живая история без постановки.",
     image: "/fine-art-black-white-photography.jpg",
-    examples: "Портрет, Пейзаж, Абстракция, Документалистика",
+    examples: "Событийная, Репортаж, Хроника",
   },
   {
-    name: "Цифровое искусство",
+    name: "Архитектурная съёмка",
     description:
-      "Искусство, созданное с помощью цифровых технологий. Включает цифровую живопись, 3D-моделирование, генеративное искусство и NFT.",
-    image: "/digital-art-abstract-colorful-design.jpg",
-    examples: "3D-арт, Цифровая живопись, Генеративное, NFT",
+      "Снимки корпусов, аудиторий, лабораторий и пространств университета — от исторических фасадов до интерьеров.",
+    image: "/classical-museum-grand-architecture-paintings.jpg",
+    examples: "Фасады, Интерьеры, Панорамы",
   },
   {
-    name: "Гравюра",
+    name: "Экспедиционная съёмка",
     description:
-      "Процесс создания произведений путём печати, обычно на бумаге. Включает офорт, литографию и шелкографию.",
-    image: "/printmaking-woodblock-print-art.jpg",
-    examples: "Офорт, Литография, Шелкография, Ксилография",
+      "Фотографии из научных поездок, полевых исследований и экспедиций кафедр. Наука в действии.",
+    image: "/outdoor-sculpture-garden-with-modern-art.jpg",
+    examples: "Полевые работы, Экспедиции, Исследования",
   },
   {
-    name: "Графика",
+    name: "Торжественные события",
     description:
-      "Основа визуального искусства, использующая линии на поверхности. От карандашных набросков до угольных шедевров.",
+      "Выпускные церемонии, юбилейные торжества, награждения и визиты почётных гостей.",
+    image: "/contemporary-exhibition-space-art-show.jpg",
+    examples: "Выпускной, Юбилей, Конференции",
+  },
+  {
+    name: "Студенческий быт",
+    description:
+      "Неофициальные снимки: общежития, студенческие клубы, спортивные соревнования и культурные мероприятия.",
+    image: "/art-gallery-interior-contemporary.jpg",
+    examples: "Клубы, Спорт, Культура, Общежития",
+  },
+  {
+    name: "Лабораторная съёмка",
+    description:
+      "Снимки научных экспериментов, лабораторного оборудования и исследовательского процесса разных десятилетий.",
+    image: "/luxury-private-art-collection-room.jpg",
+    examples: "Эксперименты, Оборудование, Открытия",
+  },
+  {
+    name: "Аэро- и панорамная съёмка",
+    description:
+      "Вид с высоты на университетский кампус, исторические панорамы и виды городской среды вокруг вуза.",
+    image: "/modern-contemporary-art-gallery-white-walls.jpg",
+    examples: "Кампус, Панорамы, Аэрофото",
+  },
+  {
+    name: "Чёрно-белая хроника",
+    description:
+      "Исторические снимки из ранних десятилетий университета — от первых фотографий до середины XX века.",
     image: "/charcoal-drawing-portrait-sketch.jpg",
-    examples: "Карандаш, Уголь, Тушь, Пастель",
-  },
-  {
-    name: "Керамика",
-    description:
-      "Искусство создания объектов из глины и других материалов. От функциональной посуды до скульптурных работ.",
-    image: "/ceramic-pottery-handmade-vase.jpg",
-    examples: "Гончарство, Фарфор, Шамот, Раку",
-  },
-  {
-    name: "Смешанная техника",
-    description:
-      "Работы, сочетающие различные материалы и техники. Объединяет традиционные и современные методы.",
-    image: "/mixed-media-collage-contemporary-art.jpg",
-    examples: "Коллаж, Ассамбляж, Инсталляция, Мультимедиа",
-  },
-  {
-    name: "Текстильное искусство",
-    description:
-      "Искусство, создаваемое из ткани, волокна и нити. От традиционного ткачества до современных скульптур из волокна.",
-    image: "/textile-art-woven-tapestry.jpg",
-    examples: "Ткачество, Вышивка, Квилтинг, Файбер-арт",
+    examples: "1920-е, 1940-е, 1960-е, Реставрация",
   },
 ];
 
@@ -78,9 +78,9 @@ export function ArtTypes() {
     <section className="py-24 px-6 bg-muted/30">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="font-serif text-4xl md:text-5xl mb-4 text-balance">Изучайте формы искусства</h2>
+          <h2 className="font-serif text-4xl md:text-5xl mb-4 text-balance">Жанры и техники съёмки</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Откройте для себя разнообразие техник и материалов, которые художники используют для выражения творческого видения
+            Фотоархив университета включает снимки в самых разных жанрах и техниках — от постановочных портретов до репортажных кадров
           </p>
         </div>
 
@@ -98,7 +98,7 @@ export function ArtTypes() {
                 <h3 className="font-serif text-2xl mb-3">{type.name}</h3>
                 <p className="text-muted-foreground mb-4 leading-relaxed">{type.description}</p>
                 <div className="pt-4 border-t">
-                  <p className="text-sm font-medium mb-1">Популярные формы:</p>
+                  <p className="text-sm font-medium mb-1">Виды:</p>
                   <p className="text-sm text-muted-foreground">{type.examples}</p>
                 </div>
               </CardContent>
