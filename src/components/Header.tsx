@@ -24,16 +24,16 @@ export function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <button
-              onClick={() => scrollToSection("artists")}
+              onClick={() => scrollToSection("personalities")}
               className="text-sm tracking-wide hover:text-muted-foreground transition-colors"
             >
-              Коллекции
+              Персоналии
             </button>
             <button
-              onClick={() => scrollToSection("works")}
+              onClick={() => scrollToSection("gallery")}
               className="text-sm tracking-wide hover:text-muted-foreground transition-colors"
             >
-              Фотогалерея
+              Фотографии из жизни университета
             </button>
             <button
               onClick={() => scrollToSection("about")}
@@ -65,16 +65,16 @@ export function Header() {
           <nav className="md:hidden py-4 border-t border-border">
             <div className="flex flex-col gap-4">
               <button
-                onClick={() => scrollToSection("artists")}
+                onClick={() => scrollToSection("personalities")}
                 className="text-sm tracking-wide hover:text-muted-foreground transition-colors text-left"
               >
-                Коллекции
+                Персоналии
               </button>
               <button
-                onClick={() => scrollToSection("works")}
+                onClick={() => scrollToSection("gallery")}
                 className="text-sm tracking-wide hover:text-muted-foreground transition-colors text-left"
               >
-                Фотогалерея
+                Фотографии из жизни университета
               </button>
               <button
                 onClick={() => scrollToSection("about")}
